@@ -35,3 +35,7 @@ yarn-error.log*
 
 # vscode config
 .vscode
+
+# sw - service worker
+public/sw.js
+public/workbox-*.js

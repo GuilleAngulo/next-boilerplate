@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "next-boilerplate",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
     "test": "jest",
     "test:watch": "yarn test --watch",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -s ./public"
   },
   "husky": {
     "hooks": {
@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "next": "9.5.3",
+    "next-pwa": "^3.1.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "styled-components": "^5.2.0"
