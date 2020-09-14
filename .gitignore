@@ -33,9 +33,6 @@ yarn-error.log*
 # vercel
 .vercel
 
-# vscode config
-.vscode
-
 # sw - service worker
 public/sw.js
 public/workbox-*.js
